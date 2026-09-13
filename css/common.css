@@ -8,8 +8,19 @@ body {
   color: #434455;
   background-color: #fff;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ol,
 ul {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 a {
@@ -22,11 +33,29 @@ button {
 address {
   font-style: normal;
 }
+img {
+  display: block;
+}
 
 /* Base styles */
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
 .section {
+  padding: 120px 0;
 }
 .section-title {
+  margin: 0 auto 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -37,6 +66,13 @@ address {
 .accent {
   color: #4d5ae5;
 }
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -49,6 +85,9 @@ address {
 
 /* Button */
 .btn {
+  padding: 16px 32px;
+  border-radius: 4px;
+
   font-weight: 500;
   letter-spacing: 0.04em;
   background-color: transparent;

@@ -1,12 +1,23 @@
 .header {
+  padding: 24px 15px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
 }
 .main-nav {
+  margin-left: 76px;
+  margin-right: auto;
 }
 .main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .main-nav-item {
 }
 .main-nav-link {
+  display: block;
   font-weight: 500;
   color: #2e2f42;
 }
@@ -17,6 +28,9 @@
 .contacts {
 }
 .contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-item {
 }
