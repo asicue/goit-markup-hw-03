@@ -18,11 +18,15 @@
   background: #fff;
 }
 .team-ill {
-  margin-bottom: 32px;
+}
+.team-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px;
 }
 .team-name {
-  margin-bottom: 8px;
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -31,6 +35,5 @@
   color: #2e2f42;
 }
 .team-caption {
-  margin-bottom: 32px;
   text-align: center;
 }
